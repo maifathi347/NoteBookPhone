@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBookPhone", "NoteBookPhone\NoteBookPhone.csproj", "{33F51514-FFA7-4D15-AD77-DFA5DBD972FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteBookPhone", "NoteBookPhone\NoteBookPhone.csproj", "{33F51514-FFA7-4D15-AD77-DFA5DBD972FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "Dll\DAL.csproj", "{CCA11F02-76C3-4914-9D69-F657D5885F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{97AE94D5-7433-4C2F-BD15-0C2851EAE4D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{33F51514-FFA7-4D15-AD77-DFA5DBD972FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F51514-FFA7-4D15-AD77-DFA5DBD972FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F51514-FFA7-4D15-AD77-DFA5DBD972FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA11F02-76C3-4914-9D69-F657D5885F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA11F02-76C3-4914-9D69-F657D5885F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA11F02-76C3-4914-9D69-F657D5885F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA11F02-76C3-4914-9D69-F657D5885F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AE94D5-7433-4C2F-BD15-0C2851EAE4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AE94D5-7433-4C2F-BD15-0C2851EAE4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AE94D5-7433-4C2F-BD15-0C2851EAE4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AE94D5-7433-4C2F-BD15-0C2851EAE4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
